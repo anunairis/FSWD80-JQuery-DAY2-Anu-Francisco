@@ -1,0 +1,13 @@
+var christmas = [{
+   "name": "bell",
+   "image":"img1.gif",
+   "price": "31"
+}, {
+   "name": "rudolf",
+   "image":"img2.gif",
+   "price": "30"
+}, {
+   "name": "Santa",
+   "image": "img3.gif",
+   "price": "29"
+}];
