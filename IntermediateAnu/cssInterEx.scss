@@ -36,30 +36,30 @@ nav {
 		display: none;
 		color: lightblue;
 
-		#cart img {
+		& img {
 		  width: 100px;
 		  height: 100px;
 		  float: left;
 		}
 
-		#cart>div>div {
+		&>div>div {
 		  float: left;
 		  padding: 5px;
 		  width: 30%;
 		}
 
-		#cart>div {
+		& >div {
 		  border-bottom: 1px solid #000;
 		  clear: both;
 		  overflow: hidden;
 		}
 
-		#cart input[type=number] {
+		& input[type=number] {
 		  width: 32px;
 		  margin-bottom: 25px;
 		}
 
-		#cart p, #cart h4 {
+		& p, & h4 {
 		  font-size: 0.7em;
 		  margin: 2px;
 		}
