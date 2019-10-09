@@ -1,0 +1,96 @@
+body {
+  margin: 0; }
+
+header {
+  margin: 0 2%; }
+  header .logo {
+    align-self: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    header .logo .header_right {
+      justify-content: space-around;
+      flex-direction: column;
+      display: flex;
+      justify-content: center; }
+      header .logo .header_right .signin {
+        padding: 8px 0; }
+
+nav {
+  width: 100%;
+  background-color: lightblue; }
+  nav #openCart {
+    color: white;
+    font-size: 1.4em; }
+  nav #cart {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    top: 135px;
+    border: 3px solid #000;
+    margin: 12px;
+    display: none;
+    color: lightblue; }
+    nav #cart #cart img {
+      width: 100px;
+      height: 100px;
+      float: left; }
+    nav #cart #cart > div > div {
+      float: left;
+      padding: 5px;
+      width: 30%; }
+    nav #cart #cart > div {
+      border-bottom: 1px solid #000;
+      clear: both;
+      overflow: hidden; }
+    nav #cart #cart input[type=number] {
+      width: 32px;
+      margin-bottom: 25px; }
+    nav #cart #cart p, nav #cart #cart h4 {
+      font-size: 0.7em;
+      margin: 2px; }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    width: 95%;
+    margin: 0 2.5%; }
+    nav ul li {
+      font-weight: bold;
+      padding: 5px 0;
+      list-style-type: none; }
+      nav ul li a {
+        padding-right: 20px;
+        text-decoration: none;
+        color: white;
+        font-size: 1.4em; }
+
+article p {
+  font-size: 3em;
+  text-align: center; }
+
+#products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  #products div {
+    text-align: center;
+    margin: 2%; }
+    #products div input {
+      width: 100px;
+      background-color: lightblue;
+      border-radius: 10px; }
+    #products div img {
+      width: 400px;
+      height: 60vh; }
+
+.pct70 {
+  width: 60% !important;
+  text-align: left !important; }
+
+#toggleCart {
+  float: right;
+  position: relative; }
+
+/*# sourceMappingURL=cssInterEx.css.map */

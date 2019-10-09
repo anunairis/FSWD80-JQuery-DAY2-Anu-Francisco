@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+
+<body>
+	<style>
+
+img {
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+	}
+	</style>
+
+<span id="text">Click on a picture!</span>
+
+	<div id="Christmas Bell">
+		<p>Christmas Bell</p>
+		<img src="bell.png" alt="">
+		<span>Hello</span>
+	</div>
+		
+	<div id="Christmas Gift">
+		<p>Christmas Gift</p>
+		<img src="gift.png" alt="">
+	</div>
+
+	<div id="Santa Claus">
+		<p>Santa Claus</p>
+		<img src="santa.png" alt="">
+	</div>
+
+<script>
+$(document).ready(function() {
+
+    // $("div").click(function() {
+    //     var content = $(this).attr("id");
+    //     console.log(content);
+    //     $("#text").text("You clicked on " + content);
+    // });
+
+    $("div").click(function() {
+        var content = $(this).find("p").html();
+        console.log(content);
+        $("#text").text("You clicked on " + content);
+    });
+});
+</script>
+</body>
+</html>
+	

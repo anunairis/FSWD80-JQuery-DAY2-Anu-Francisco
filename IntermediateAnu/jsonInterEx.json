@@ -1,0 +1,27 @@
+var dress = `[
+{
+	"id" : "0",
+	"name" : "White dress",
+	"image" : "white.jpg",
+	"price" : "55.00",
+	"quantity" : "0"
+}, {
+	"id" : "1",
+	"name" : "White dress",
+	"image" : "white1.jpg",
+	"price" : "155.00",
+	"quantity" : "0"
+}, {
+	"id" : "2",
+	"name" : "White dress",
+	"image" : "white2.jpg",
+	"price" : "255.00",
+	"quantity" : "0"
+}, {
+	"id" : "3",
+	"name" : "White dress",
+	"image" : "white3.jpg",
+	"price" : "355.00",
+	"quantity" : "0"
+}
+]`

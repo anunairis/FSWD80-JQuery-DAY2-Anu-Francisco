@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="basicEx2.css">
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+<body>
+
+<div id="container">
+	<div id="Christmas Bell">
+		<img src="bell.png" alt="">
+	</div>
+		
+	<div id="Christmas Gift">
+		<img src="gift.png" alt="">
+	</div>
+
+	<div id="SantaClaus">
+		<img src="santa.png" alt="">
+	</div>
+</div>
+<div id="container">
+	<div id="Christmas Bell">
+		<img src="bell.png" alt="">
+	</div>
+		
+	<div id="Christmas Gift">
+		<img src="gift.png" alt="">
+	</div>
+
+	<div id="SantaClaus">
+		<img src="santa.png" alt="">
+	</div>
+</div>
+<div id="container">
+	<div id="Christmas Bell">
+		<img src="bell.png" alt="">
+	</div>
+		
+	<div id="Christmas Gift">
+		<img src="gift.png" alt="">
+	</div>
+
+	<div id="SantaClaus">
+		<img src="santa.png" alt="">
+	</div>
+</div>
+<script>
+
+$(document).ready(function() {
+    $("div").click(function() {
+    	$(this).find("#SantaClaus").hide();
+    });
+});
+</script>
+</body>
+</html>
